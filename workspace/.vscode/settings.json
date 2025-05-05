@@ -1,0 +1,11 @@
+{
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "\\.ts",
+        "cmd": "../checker.sh ${file} 2>&1"
+      }
+    ]
+  }
+}
+ 

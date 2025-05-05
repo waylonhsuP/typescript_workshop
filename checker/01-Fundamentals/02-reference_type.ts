@@ -1,0 +1,2 @@
+import { validate } from "../validator";
+validate("../workspace/01-Fundamentals/02-reference_type.ts", { arr: "number[]", Animal: "{name: string; age: number;}", animal: "Animal", Color: "Green, Blue, Red", getString: "(str: string) => string", });

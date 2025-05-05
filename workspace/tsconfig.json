@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "es2020",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true
+    },
+    "include": [
+      "01-Fundamentals/**/*.ts",
+      "02-Interface/**/*.ts"
+    ]
+  }
